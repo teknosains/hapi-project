@@ -1,5 +1,8 @@
-## A sample Project of Node.js with Hapi and Boostrap
+## A sample Project of Node.js with [Hapi[(http://hapijs.com) and Boostrap
 
+## What is Hapi JS ? 
+
+Its a Node.JS Framework. [Read more about Hapi](http://hapijs.com)
 
 ## Whats Included ? 
 
