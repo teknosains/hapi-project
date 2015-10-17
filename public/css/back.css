@@ -1,0 +1,234 @@
+/* 
+Author: Start Bootstrap - http://startbootstrap.com
+'SB Admin' HTML Template by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* ATTN: This is mobile first CSS - to update 786px and up screen width use the media query near the bottom of the document! */
+
+/* Global Styles */
+
+.navbar-brand{margin-top:-12px}
+.input-group-addon, .input-group-btn{width:0%!important}
+#login{background:#eee!important}
+body {
+    margin-top: 50px;
+}
+
+#wrapper {
+    padding-left: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    padding: 5px 15px;
+}
+
+/* Nav Messages */
+
+.messages-dropdown .dropdown-menu .message-preview .avatar,
+.messages-dropdown .dropdown-menu .message-preview .name,
+.messages-dropdown .dropdown-menu .message-preview .message,
+.messages-dropdown .dropdown-menu .message-preview .time {
+    display: block;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .avatar {
+    float: left;
+    margin-right: 15px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .name {
+    font-weight: bold;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .message {
+    font-size: 12px;
+}
+
+.messages-dropdown .dropdown-menu .message-preview .time {
+    font-size: 12px;
+}
+
+
+/* Nav Announcements */
+
+.announcement-heading {
+    font-size: 50px;
+    margin: 0;
+}
+
+.announcement-text {
+    margin: 0;
+}
+
+/* Table Headers */
+.table th {
+    text-align:center;
+
+}
+table.tablesorter thead {
+    cursor: pointer;
+}
+
+table.tablesorter thead tr th:hover {
+    background-color: red;
+}
+
+/* Flot Chart Containers */
+
+.flot-chart {
+    display: block;
+    height: 400px;
+}
+
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+
+/* Edit Below to Customize Widths > 768px */
+@media (min-width:768px) {
+
+    /* Wrappers */
+
+    #wrapper {
+        padding-left: 235px;
+    }
+
+    #page-wrapper {
+        padding: 15px 25px;
+    }
+
+    /* Side Nav */
+
+    .side-nav {
+        margin-left: -230px;
+        left: 230px;
+        width: 230px;
+        position: fixed;
+        top: 50px;
+        height: 90%;
+        border-radius: 0;
+        border: none;
+        background: none repeat scroll 0 0 #fafafa;
+        /*background-image:-moz-linear-gradient(center top , blue 0%, red 100%);*/
+        overflow-y: auto;
+		border-top:1px solid #e7e7e7;
+        box-shadow:0 1px 1px #ddd
+    }
+    .side-nav > li.sidebar-search a{
+       color:#333 !important;
+        background-color: #f8f8f8;
+    }
+    .side-nav > li.sidebar-search a:hover{
+
+        cursor: default;
+    }
+    .side-nav >li{
+
+        border-bottom:1px solid #e7e7e7;
+    }
+    /* Bootstrap Default Overrides - Customized Dropdowns for the Side Nav */
+
+    .side-nav>li.dropdown>ul.dropdown-menu {
+        position: relative;
+        min-width: 230px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a {
+        color: #333;
+        padding: 5px 5px 5px 25px;
+		white-space: normal!important;
+    }
+
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a:hover,
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a.active,
+    .side-nav>li.dropdown>ul.dropdown-menu>li>a:focus {
+        color: orange;
+        background-color: #fff;
+
+    }
+
+    .side-nav>li>a {
+        width: 230px;
+	}
+	.side-nav>li>ul>li>a{border-top:1px dotted #ddd;}
+
+    .navbar-inverse .navbar-nav>li>a:hover,
+    .navbar-inverse .navbar-nav>li>a:focus {
+        color: #fff;
+        background-color: #428bca;
+    }
+
+    .menu-active{
+
+        background-color: #fff;
+        color:orange !important;
+    }
+
+    /* Nav Messages */
+
+    .messages-dropdown .dropdown-menu {
+        min-width: 300px;
+    }
+
+    .messages-dropdown .dropdown-menu li a {
+        white-space: normal;
+    }
+    .navbar-right a.dropdown-toggle:hover,.navbar-right a.dropdown-toggle{
+
+
+        padding:15px;
+    }
+
+}
+.sub-active{color:orange !important}
+.button{width:90px}
+.grid-search{width:200px !important}
+.clear-search{color:#d32132 !important}
+.active-page{background-color:#fff !important;color:orange}
+.navbar-date{color:#fff !important}
+.navbar-date:hover,.navbar-date:focus{background-color:transparent !important}
+
+/*Get tid off all rounder border radius*/
+
+* {
+.border-radius(0) !important;
+}
+
+* {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.a-warning{color: #f0ad4e;}
+.a-danger{color: #d9534f;font-size:1.105em}
+.a-info{color: #39b3d7;}
+.a-success{color: green;}
+
+.a-warning:hover,.a-danger:hover,.a-info:hover,.a-success:hover{text-decoration:none;}
+.pagination>li>span.page-info{border:none;color:#333}
+.page-header {
+margin: 20px 0 15px;}
+
+@media (min-width:768px) {
+
+    .pin .thumbnail img{
+        
+        height:200px;
+      
+    }
+    
+}
+
