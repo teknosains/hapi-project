@@ -115,7 +115,11 @@ server.route({
 
 ## Installation
 
-Just Clone it to your local machine. And run it
+Just Clone it to your local machine and get inside the Project root
+
+Install Dependecy modules
+
+``` npm install ```
 
 ``` node index.js ```
 
