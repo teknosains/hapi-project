@@ -1,4 +1,4 @@
-## A sample Project of Node.js with [Hapi[(http://hapijs.com) and Boostrap
+## A sample Project of Node.js with [Hapi](http://hapijs.com) and Boostrap
 
 ## What is Hapi JS ? 
 
@@ -13,6 +13,7 @@ We're using :
 * Sample of Layouting
 * Module as Hapi Plugins
 * Good (plugins) for Logging
+* Have it your way...
 
 ## Motivation
 
