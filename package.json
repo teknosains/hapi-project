@@ -2,7 +2,7 @@
   "name": "hapi-proect",
   "version": "1.0.0",
   "description": "Hapi Project with Boostrap",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

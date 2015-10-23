@@ -33,9 +33,23 @@ server.register(require('inert'), function(err) {
 
 
 /**
+ * Register all Modules as Plugins Here
+ * 
+ */
+
+var plugins = [
+	
+	{ register : require('vision') }, //register Vision with others Plugins
+	{ register : require('./modules/employees/index.js') },
+	{ register : require('./modules/user-management/users/index.js') }	
+	
+];
+
+
+/**
  * Routing Views
  */ 
-server.register(require('vision'), function (err) {
+server.register(plugins, function (err) {
 
     if (err) {
         throw err;

@@ -1,5 +1,5 @@
 /**************************************************
- * Configuring Employees Plugins
+ * Configuring User Plugins
  **************************************************/
 /**
  * Register Plugins
@@ -10,15 +10,15 @@ exports.register = function(server, options, next) {
 		
 		{
 			method : 'GET',
-			path : '/employees',
+			path : '/user-management/users',
 			handler : function(request, reply) {
 				
-				reply.view('employees/displayEmployees', {title:'Employees'});
+				reply.view('user-management/users/displayUsers', {title:'Users'});
 			}
 		},
 		{
 			method : 'POST',
-			path : '/employees',
+			path : '/user-management/users',
 			handler : function(request, reply) {
 				
 			}
@@ -37,6 +37,6 @@ exports.register = function(server, options, next) {
  */
 exports.register.attributes = {
 	
-	name : 'EmployeesModule',
+	name : 'UserManagementUsers',
 	version : '1.0.0'	
 };
