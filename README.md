@@ -1,4 +1,4 @@
-## A sample Project of Node.js with [Hapi](http://hapijs.com) and Boostrap
+## Sample Project of Node.js with [Hapi](http://hapijs.com) and Boostrap
 
 ## What is Hapi JS ? 
 
@@ -125,7 +125,7 @@ Install Dependecy modules
 
 ``` npm install ```
 
-``` node index.js ```
+``` node server.js ```
 
 Open in your browser
 
